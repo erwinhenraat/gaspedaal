@@ -11,6 +11,7 @@ using System;
  */
 public class ArduinoInput : MonoBehaviour {
 
+    //this might need some adjusting to point wherever the arduino is connected to.
     [SerializeField]
     private string _serialPortName = "/dev/cu.usbmodem14111";
     [SerializeField]
