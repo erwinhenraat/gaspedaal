@@ -15,9 +15,10 @@ public class ArduinoInput : MonoBehaviour {
     [SerializeField]
     private string _serialPortName = "/dev/cu.usbmodem14111";
     [SerializeField]
-    private int _bautrate = 9600;
+    private int _bautrate = 200;
 
     private SerialPort stream;
+
 
     public Pair arduinoPedalValues = new Pair(0, 0);
 
